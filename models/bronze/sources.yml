@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: TRAINING
+    schema: PUBLIC
+    quoting:
+      identifier: true
+      database: true
+      schema: true
+    tables:
+      - name: RAW_CUSTOMERS
+        description: "this table has customers which is getting from salesforce"

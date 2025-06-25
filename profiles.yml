@@ -1,0 +1,13 @@
+customer_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: RAXXHKB-RZ34633
+      user: SAMG
+      password: azureTraining2025
+      role: ACCOUNTADMIN
+      database:SOURCE_TEST
+      warehouse:COMPUTE_WH
+      schema: public
+      threads: 1

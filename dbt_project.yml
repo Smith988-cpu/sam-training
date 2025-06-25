@@ -1,0 +1,13 @@
+name: 'Analytics'
+version: '2.0'
+profile: 'customer_pipeline'
+model-paths: ["models"]
+seed-paths: ["seeds"]
+models:
+    bronze:
+      materialized: view
+      +schema: PUBLIC
+    silver:
+      materialized: view
+    gold:
+      materialized: table
