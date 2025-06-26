@@ -4,7 +4,7 @@
     schema= 'PUBLIC')}} 
 
 select 
-o.ORDER_ID,o.CUSTOMER_ID,
+o.ORDER_ID,o.CUSTOMER_ID,o.PRODUCT_ID
 FIRST_NAME || ' ' || LAST_NAME as CUSTOMERNAME,
 o.ORDER_DATE,O.TOTAL_AMOUNT from 
 {{ref("fact_orders")}} o join
