@@ -1,3 +1,8 @@
+{{config(
+    materialized= 'view',
+    database= 'GOLD',
+    schema= 'PUBLIC')}} 
+
 select CUSTOMER_ID,
 CUSTOMERNAME,
 SUM(TOTAL_AMOUNT) as amount,
