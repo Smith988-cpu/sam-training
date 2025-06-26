@@ -1,5 +1,5 @@
 {{config(
-    materialized= 'view',
+    materialized= 'TABLE',
     database= 'GOLD',
     schema= 'PUBLIC')}} 
 
