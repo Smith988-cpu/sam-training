@@ -19,6 +19,7 @@ models:
 seeds: 
   Analytics:
     country_codes:
+      +database: BRONZE
       +schema: public
 
     
