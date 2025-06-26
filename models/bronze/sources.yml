@@ -11,5 +11,5 @@ sources:
     tables:
       - name: SOURCECUSTOMER
         description: "this table has customers which is getting from salesforce"
-      - name: orders
-      - name: product
+      - name: ORDERS
+      - name: PRODUCT

@@ -16,4 +16,9 @@ models:
       materialized: table
       +database: GOLD
       +schema: PUBLIC
+seeds: 
+  Analytics:
+    country_codes:
+      +schema: public
+
     

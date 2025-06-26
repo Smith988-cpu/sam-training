@@ -7,7 +7,7 @@ customer_pipeline:
       user: SAMG
       password: azureTraining2025
       role: ACCOUNTADMIN
-      #database: SOURCE_TEST
+      database: SOURCE_TEST
       warehouse: COMPUTE_WH
       schema: public
       threads: 1
