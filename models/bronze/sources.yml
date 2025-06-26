@@ -2,12 +2,12 @@ version: 2
 
 sources:
   - name: raw
-    database: TRAINING
+    database: SOURCE_TEST
     schema: PUBLIC
     quoting:
       identifier: true
       database: true
       schema: true
     tables:
-      - name: RAW_CUSTOMERS
+      - name: SOURCECUSTOMER
         description: "this table has customers which is getting from salesforce"

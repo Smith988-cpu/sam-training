@@ -3,4 +3,4 @@
     database= 'BRONZE',
     schema= 'PUBLIC'
 )}} 
-select * from {{source('raw','RAW_CUSTOMERS')}} 
+select * from {{source('raw','SOURCECUSTOMER')}} 
