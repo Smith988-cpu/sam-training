@@ -5,9 +5,15 @@ model-paths: ["models"]
 seed-paths: ["seeds"]
 models:
     bronze:
-      materialized: view
+      +materialized: view
+      +database: BRONZE
       +schema: PUBLIC
     silver:
       materialized: view
+      +database: SILVER
+      +schema: PUBLIC
     gold:
       materialized: table
+      +database: GOLD
+      +schema: PUBLIC
+    
