@@ -1,6 +1,6 @@
 {{config(
     materialized= 'view',
-    database= 'SILVER',
+    database= 'GOLD',
     schema= 'PUBLIC')}} 
 
 select 
